@@ -1,0 +1,17 @@
+{
+    "name": "yip-mockup",
+    "version": "0.0.0",
+    "main": "src/js/yipapp.js",
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components"
+    ],
+    "dependencies": {
+        "requirejs" : "2.1.8",
+        "jquery" : "2.0.3"
+    },
+    "devDependencies" : {
+        "mock-restful" : "latest"
+    }
+}
