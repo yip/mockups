@@ -1,3 +1,44 @@
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
 fieldset {
     border-style: none;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+#yip_title {
+    position: absolute;
+    left: -1000px;
+}
+#yip_logo {
+    margin: 20px;
+}
+fieldset span {
+    float: left;
+    clear:none;
+    margin-right: 80px;
+}
+button {
+    padding-bottom: 6px;
+    padding-top: 6px;
+    width: 80%;
+}
+h2 {
+    letter-spacing: 0.1em;
+    font-size: 1.3875em;
+}
+#what-is-happening {
+    background-color: #00A0B0;
+}
+#where-is-happening {
+    background-color: #6A4A3C;
+}
+#when-is-happening {
+    background-color: #CC333F;
+}
+#send-your-report {
+    text-align: center;
+    background-color: #EB6841;
 }

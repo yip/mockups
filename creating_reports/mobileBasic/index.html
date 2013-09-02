@@ -8,10 +8,10 @@
     </head>
     <body>
         <article>
-            <h1>Yip</h1>
-            <img src="src/assets/yip.png" width="20%">
+            <h1 id="yip_title">Yip</h1>
+            <img src="src/assets/yip.png" width="20%" id="yip_logo">
             <form>
-                <fieldset>
+                <fieldset id="what-is-happening">
                     <h2>
                         What is happening?
                     </h2>
@@ -20,34 +20,43 @@
                     </label>
                     <input type="text" name="what" id="what">
                 </fieldset>
-                <fieldset>
+                <fieldset id="where-is-happening">
                     <h2>
                         Where is happening?
                     </h2>
-                    <label for="here">
-                        Here
-                    </label>
-                    <input type="radio" id="here" value="here" name="where"></radio>
-                    <label for="not-here">
+                    <span>
+                        <label for="here">
+                            Here
+                        </label>
+                        <input type="radio" id="here" value="here" name="where">
+                    </span>
+                    <span>
+                        <label for="not-here">
                         Not here
-                    </label>
-                    <input type="radio" id="not-here" value="here" name="where"></radio>
+                        </label>
+                        <input type="radio" id="not-here" value="here" name="where">
+                    </span>
                 </fieldset>
-                <fieldset>
+                <fieldset id="when-is-happening">
                     <h2>
                         When is happening?
                     </h2>
-                    <label for="now">
-                        Now
-                    </label>
-                    <input type="radio" id="now" value="now" name="when"></radio>
-                    <label for="not-now">
-                        Not here
-                    </label>
-                    <input type="radio" id="not-now" value="not-now" name="when"></radio>
+                    <span>
+                        <label for="now">
+                            Now
+                        </label>
+                        <input type="radio" id="now" value="now" name="when">
+                    </span>
+                    <span>
+                        <label for="not-now">
+                        Not now
+                        </label>
+                        <input type="radio" id="not-now" value="not-now" name="when">
+                    </span>
                 </fieldset>
-                <fieldset>
+                <fieldset id="send-your-report">
                     <button type="submit" id="submit" name="submit">Send the report</button>
+                    <h4>OR</h4>
                     <button type="button" id="next" name="next">Add details</button>
                 </fieldset>
             </form>

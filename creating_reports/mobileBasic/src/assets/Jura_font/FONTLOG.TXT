@@ -1,0 +1,38 @@
+FONTLOG for the Jura fonts
+
+This file provides detailed information on the Jura Font Software.
+This information should be distributed along with the Jura fonts
+and any derivative works.
+
+Basic Font Information
+
+Jura is a Unicode typeface family that supports all languages that
+use the Latin script and its variants, and could be expanded to support other
+scripts.
+
+Documentation can be found at http://www.tenbytwenty.com/jura.php
+To contribute to the project please contact Ed Merritt (ed@edmerritt.com)
+
+ChangeLog
+
+2 March 2011 (Ed Merritt) Jura Version 1.7
+- Paths cleaned up 
+
+1 March 2011 (Ed Merritt) Jura Version 1.6
+- Metrics improved
+
+20 February 2011 (Ed Merritt) Jura Version 1.5
+- Mac OS Roman character set supported 
+
+1 May 2008 (Ed Merritt) Jura Version 1.0
+- Initial release
+
+Acknowledgements
+
+If you make modifications be sure to add your name (N), email (E), web-address
+(if you have one) (W) and description (D). This list is in alphabetical order.
+
+N: Ed Merritt
+E: ed@edmerritt.com
+W: http://edmerritt.com/ & http://tenbytwenty.com/
+D: Designer - original glyphs
